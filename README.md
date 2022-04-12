@@ -18,3 +18,8 @@ $ yarn link
 $ cd package
 $ yarn unlink
 ```
+
+## Test
+```
+$ yarn test
+```
