@@ -1,7 +1,7 @@
 <template>
-  <main class="Main">
+  <main class="main">
     <div ref="counter_container" />
-    <button class="ResetButton" @click="handleClickReset">Reset</button>
+    <button class="reset-button" @click="handleClickReset">Reset</button>
   </main>
 </template>
 
@@ -44,14 +44,14 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.Main {
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: fit-content;
 }
 
-.ResetButton {
+.reset-button {
   margin-top: 10px;
 }
 </style>
