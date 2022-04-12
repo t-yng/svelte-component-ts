@@ -1,5 +1,12 @@
 <script lang="ts">
-  let count: number = 0
+  export let initial: number = 0;
+
+  let count: number = initial;
+
+  export const reset = () => {
+    count = 0;
+  }
+
   const increment = () => {
     count += 1
   }
